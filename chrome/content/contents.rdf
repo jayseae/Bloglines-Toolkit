@@ -12,7 +12,7 @@
   chrome:author="Chad Everett"
   chrome:authorURL="http://cxliv.org/"
   chrome:name="btoolkit"
-  chrome:description="Utilities (v0.9.0) for use with Bloglines"
+  chrome:description="Utilities (v1.2.0) for use with Bloglines"
   chrome:extension="true"
   chrome:settingsURL="chrome://btoolkit/content/btoolkitPrefs.xul">
 </RDF:Description>

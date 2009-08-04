@@ -1,9 +1,10 @@
 const APP_DISPLAY_NAME   = "Bloglines Toolkit";
 const APP_NAME           = "btoolkit";
 const APP_PACKAGE        = "/jayseae/btoolkit";
-const APP_VERSION        = "0.9.0";
+const APP_VERSION        = "1.2.0";
 
 const APP_JAR_FILE       = "btoolkit.jar";
+const APP_JAR_PATH       = "chrome/btoolkit.jar";
 const APP_CONTENT_FOLDER = "content/";
 const APP_LOCALE_FOLDER  = "locale/en-US/";
 
@@ -22,7 +23,7 @@ else
   chromeFlag = PROFILE_CHROME;
 }
 
-var err = addFile(APP_PACKAGE, APP_VERSION, APP_JAR_FILE, chromeFolder, null)
+var err = addFile(APP_PACKAGE, APP_VERSION, APP_JAR_PATH, chromeFolder, null)
 
 if (err == SUCCESS)
 { 

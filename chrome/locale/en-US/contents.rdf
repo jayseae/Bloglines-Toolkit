@@ -21,6 +21,6 @@
 
 <!-- version information -->
 <RDF:Description about="urn:mozilla:locale:en-US:btoolkit"
-  chrome:localeVersion="0.9.0" />
+  chrome:localeVersion="1.2.0" />
 
 </RDF:RDF>

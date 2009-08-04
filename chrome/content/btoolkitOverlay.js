@@ -2,8 +2,8 @@
    * Bloglines Toolkit: Utilities for use with Bloglines.
    * An Extension for the Firefox (and Mozilla?) Browser.
    *
-   * Release 0.9.0
-   * May 13, 2004
+   * Release 1.2.0
+   * June 17, 2004
    *
    * Copyright 2004, Chad Everett <cxliv.org>
    *
@@ -262,7 +262,7 @@ function btoolkitUpdateGet()
   gXMLHttpRequest = new XMLHttpRequest();
   gXMLHttpRequest.onload = btoolkitUpdateSet;
   gXMLHttpRequest.open('GET','http://rpc.bloglines.com/update?user=' + cPref + '&amp;ver=1');
-  gXMLHttpRequest.setRequestHeader('User-Agent','BloglinesNotifier/Bloglines Toolkit for Mozilla/0.9.0');
+  gXMLHttpRequest.setRequestHeader('User-Agent','BloglinesNotifier/Bloglines Toolkit for Mozilla/1.2.0');
   gXMLHttpRequest.send(null);
 }
 

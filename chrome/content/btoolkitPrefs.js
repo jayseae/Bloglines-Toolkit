@@ -2,8 +2,8 @@
    * Bloglines Toolkit: Utilities for use with Bloglines.
    * An Extension for the Firefox (and Mozilla?) Browser.
    *
-   * Release 0.9.0
-   * May 13, 2004
+   * Release 1.2.0
+   * June 17, 2004
    *
    * Copyright 2004, Chad Everett <cxliv.org>
    *
