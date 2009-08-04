@@ -1,0 +1,27 @@
+statusbarpanel#btoolkit-notifier-status[status="000"] {
+  list-style-image: url("chrome://btoolkit/content/16x16.gif");
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+}
+
+statusbarpanel#btoolkit-notifier-status[status="00f"] {
+  list-style-image: url("chrome://btoolkit/content/16x16.gif");
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+}
+
+statusbarpanel#btoolkit-notifier-status[status="0f0"] {
+  list-style-image: url("chrome://btoolkit/content/16x16b.gif");
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+}
+
+statusbarpanel#btoolkit-notifier-status[status="f00"] {
+  list-style-image: url("chrome://btoolkit/content/16x16_alert.gif");
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+}

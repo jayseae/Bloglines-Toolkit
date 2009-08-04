@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<!--
+   - Bloglines Toolkit: Utilities for use with Bloglines.
+   - An Extension for the Firefox (and Mozilla?) Browser.
+   -
+   - Release 0.9.0
+   - May 13, 2004
+   -
+   - Copyright 2004, Chad Everett <cxliv.org>
+   -
+   - This program is free software:  You may redistribute it and/or modify it
+   - it under the terms of the Artistic License version 2 as published by the
+   - Open Source Initiative.
+   -
+   - This program is distributed in the hope that it will be useful but does
+   - NOT INCLUDE ANY WARRANTY; Without even the implied warranty of FITNESS
+   - FOR A PARTICULAR PURPOSE.
+   -
+   - You should have received a copy of the Artistic License with this program.
+   - If not, see <http://www.opensource.org/licenses/artistic-license-2.0.php>.
+   -->
+
+<!DOCTYPE overlay SYSTEM "chrome://btoolkit/locale/btoolkit.dtd">
+
+<?xml-stylesheet href="chrome://btoolkit/content/btoolkitOverlay.css" type="text/css"?>
+
+<overlay id="btoolkitOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://btoolkit/content/btoolkitOverlay.js" />
+
+<popup id="contentAreaContextMenu">
+  <menuseparator id="btoolkit-context-sep-a" />
+  <menu id="btoolkit-context-menu" label="&btoolkit.context.menu.label;">
+    <menupopup id="btoolkit-context-menu-items">
+      <menuitem
+        id="btoolkit-context-myblogs"
+        label="&btoolkit.context.myblogs.label;"
+        oncommand="btoolkitOpenLink(gMyBlogsURL);"
+      />
+      <menuitem
+        id="btoolkit-context-search-link"
+        label="&btoolkit.context.search.link.label;"
+        oncommand="btoolkitOpenLink(gCitationsURL + escape(gContextMenu.linkURL()));"
+      />
+      <menuitem
+        id="btoolkit-context-search-page"
+        label="&btoolkit.context.search.page.label;"
+        oncommand="btoolkitOpenLink(gCitationsURL + escape(getWebNavigation().currentURI.spec));"
+      />
+      <menuitem
+        id="btoolkit-context-search-text"
+        oncommand="btoolkitOpenLink(gSearchURL + '%22' + escape(gContextMenu.searchSelected()) + '%22');"
+      />
+      <menuitem
+        id="btoolkit-context-subscribe-link"
+        label="&btoolkit.context.subscribe.link.label;"
+        oncommand="btoolkitOpenLink(gSubscribeURL + gContextMenu.linkURL());"
+      />
+      <menuitem
+        id="btoolkit-context-subscribe-page"
+        label="&btoolkit.context.subscribe.page.label;"
+        oncommand="btoolkitOpenLink(gSubscribeURL + getWebNavigation().currentURI.spec);"
+      />
+      <menuitem
+        id="btoolkit-context-prefs"
+        label="&btoolkit.context.prefs.label;"
+        oncommand="window.openDialog('chrome://btoolkit/content/btoolkitPrefs.xul','PrefWindow','chrome,modal=yes,resizable=no','browser');"
+      />
+    </menupopup>
+  </menu>
+  <menuseparator id="btoolkit-context-sep-b" />
+</popup>
+   
+<statusbar id="status-bar">
+  <statusbarpanel
+    class="statusbarpanel-iconic"
+    id="btoolkit-notifier-status"
+    onmouseup="btoolkitProcessClick(event);"
+    status="000"
+  />
+</statusbar> 
+
+<stringbundleset id="stringbundleset">
+  <stringbundle id="btoolkit-stringbundle" src="chrome://btoolkit/locale/btoolkit.properties" />
+</stringbundleset>
+
+</overlay>

@@ -1,0 +1,33 @@
+<!ENTITY btoolkit.context.menu.label               "Bloglines Toolkit">
+<!ENTITY btoolkit.context.myblogs.label            "Display My Blogs">
+<!ENTITY btoolkit.context.prefs.label              "Toolkit Preferences">
+<!ENTITY btoolkit.context.preview.link.label       "Preview this Link">
+<!ENTITY btoolkit.context.preview.page.label       "Preview this Page">
+<!ENTITY btoolkit.context.search.link.label        "Find References to this Link">
+<!ENTITY btoolkit.context.search.page.label        "Find References to this Page">
+<!ENTITY btoolkit.context.subscribe.link.label     "Subscribe to this Link">
+<!ENTITY btoolkit.context.subscribe.page.label     "Subscribe to this Page">
+
+<!ENTITY btoolkit.pref.context.label               "Context Menu Options">
+<!ENTITY btoolkit.pref.context.active.label        "Add Bloglines Toolkit Options to the Context Menu">
+<!ENTITY btoolkit.pref.context.sep.a.label         "Insert a Separator Before Context Items">
+<!ENTITY btoolkit.pref.context.sep.b.label         "Insert a Separator After Context Items">
+<!ENTITY btoolkit.pref.label                       "Bloglines Toolkit Preferences">
+<!ENTITY btoolkit.pref.link.current.label          "Just Open the Link">
+<!ENTITY btoolkit.pref.link.background.label       "Open New Tabs in Background">
+<!ENTITY btoolkit.pref.link.label                  "Link Options">
+<!ENTITY btoolkit.pref.link.new.window.label       "Use a New Window for Links">
+<!ENTITY btoolkit.pref.link.new.tab.label          "Open Links in a New Tab">
+<!ENTITY btoolkit.pref.notifier.label              "Notifier Options">
+<!ENTITY btoolkit.pref.notifier.active.label       "Enable the Bloglines Notifier">
+<!ENTITY btoolkit.pref.notifier.email.label        "Email Address:">
+<!ENTITY btoolkit.pref.notifier.timer.label        "Refresh Notifier Every (in Seconds):">
+<!ENTITY btoolkit.pref.notifier.pause.active.label "Suspend Notifier While Viewing Unread Items">
+<!ENTITY btoolkit.pref.notifier.pause.label        "Do Not Refresh for (in Seconds):">
+
+<!ENTITY btoolkit.url.bloglines                    "http://www.bloglines.com/">
+<!ENTITY btoolkit.url.citations                    "http://www.bloglines.com/citations?url=">
+<!ENTITY btoolkit.url.myblogs                      "http://www.bloglines.com/myblogs/">
+<!ENTITY btoolkit.url.preview                      "http://www.bloglines.com/preview/">
+<!ENTITY btoolkit.url.search                       "http://www.bloglines.com/search?q=">
+<!ENTITY btoolkit.url.subscribe                    "http://www.bloglines.com/sub/">
